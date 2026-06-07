@@ -61,13 +61,14 @@
 | 許可AIが使えない環境で、検索や汎化の考え方を確認したい人 | `07_supplement_masking_generalization.md` |
 | 共有会や対象者別の説明ルートを作りたい人 | `08_summary_and_talk_track.md` |
 
-案件の種類ごとに読む場合は、以下を目安にします。
+案件の種類や担当ごとに読む場合は、以下を目安にします。
 
-| 案件の種類 | 想定する場面 | 優先して読む章 |
+| 案件の種類・担当 | 想定する場面 | 優先して読む章 |
 |---|---|---|
 | POC開発 | 実証実験や機能確認のために、短期間で作って試す | `01_ai_request_basics.md`、`03_development_workflow.md`、`04_testing_workflow.md`、`07_practical_rules.md` |
 | 新規開発 | サービスイン前のシステムを新しく開発する | `01_ai_request_basics.md`、`03_development_workflow.md`、`04_testing_workflow.md`、`05_review_redesign.md`、`07_practical_rules.md` |
 | 改修・修正 | 稼働しているサービスやシステムを改善する | `02_reading_existing_code.md`、`03_development_workflow.md`、`04_testing_workflow.md`、`05_review_redesign.md`、`07_practical_rules.md` |
+| テスター業務・QA支援 | 仕様確認、テストケース作成、差分確認、回帰テスト、不具合再現確認を行う | `01_ai_request_basics.md`、`02_reading_existing_code.md`、`04_testing_workflow.md`、`06_operations_maintenance.md`、`07_practical_rules.md` |
 | 運用・保守 | 稼働しているサービスやシステムの運用・保守。不具合対応を主な対象とする | `02_reading_existing_code.md`、`04_testing_workflow.md`、`06_operations_maintenance.md`、`07_practical_rules.md` |
 
 開発作業の進め方とコードレビューの考え方は近いテーマですが、この資料では分けて扱います。
