@@ -32,8 +32,8 @@ GitHubやCIと連携して、IssueやPR、CI失敗を起点にAIがDraft PRま�
 | 対象者 | 最初に見せる資料 | 話す中心 | 省いてよい話 |
 |---|---|---|---|
 | AIの使い方をまず知りたい人 | `00_index.md`、`01_ai_request_basics.md`、この章 | AI活用はコード生成だけではなく、調査・整理・確認を前倒しする話であること | CI/CD連携AIやレビュー省略判断の細かい話 |
-| 開発担当 | `01_ai_request_basics.md`、`03_development_workflow.md`、`04_testing_workflow.md`、`05_review_redesign.md` | 実装前整理、影響範囲、エラー調査、ユニットテスト、PR前セルフチェック | 運用報告文や問い合わせ対応の細かい話 |
-| テスト・QA担当 | `04_testing_workflow.md`、`03_development_workflow.md`、`06_operations_maintenance.md` | 仕様・差分・業務フローからテストケースを作ること、ブラウザ操作や自動テストに使うこと | コードレビューの思想やCI/CDの詳細 |
+| 開発担当 | `01_ai_request_basics.md`、`03_development_workflow.md`、`04_testing_workflow.md`、`05_review_redesign.md`、`07_practical_rules.md` | 実装前整理、影響範囲、エラー調査、ユニットテスト、PR前セルフチェック | 運用報告文や問い合わせ対応の細かい話 |
+| テスト・QA担当 | `04_testing_workflow.md`、`03_development_workflow.md`、`06_operations_maintenance.md`、`07_practical_rules.md` | 仕様・差分・業務フローからテストケースを作ること、ブラウザ操作や自動テストに使うこと | コードレビューの思想やCI/CDの詳細 |
 | 既存コード調査・引き継ぎ担当 | `02_reading_existing_code.md`、`01_ai_request_basics.md`、`04_testing_workflow.md` | 技術スタック把握、主要機能、入口、HTML仕様書化、回帰観点作成 | レビュー省略判断や運用報告の詳細 |
 | レビュー担当・リーダー | `05_review_redesign.md`、`03_development_workflow.md`、`07_practical_rules.md` | 主観的レビューからリスク確認へ変えること、レビュー省略と要レビューの判断 | HTML仕様書化やテストケース作成の細部 |
 | 運用保守担当 | `06_operations_maintenance.md`、`02_reading_existing_code.md`、`04_testing_workflow.md`、`07_practical_rules.md` | 障害切り分け、ログ調査、問い合わせ対応、一次報告、再発防止 | 新規開発の進め方やレビュー思想の詳細 |
@@ -319,7 +319,7 @@ Webアプリでは、ブラウザ操作を伴う確認やPlaywrightのような�
 デモ候補：
 
 - 7章の重要度一覧を見せる
-- 許可AIと未許可AIで扱いを分ける表を見せる
+- 7-1の利用形態別の扱い表を見せる
 - レビュー省略 / 要レビューの判断表を見せる
 
 ここでは深掘りしないこと：
@@ -491,4 +491,3 @@ AIを使う目的は、エンジニアの判断をなくすことではありま
 この資料は、全部を一気に読むものではありません。
 自分の担当、現場のAI導入レベル、プロジェクトのルールに合わせて、必要な章を参照してください。
 ```
-
